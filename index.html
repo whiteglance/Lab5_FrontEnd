@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JS Завдання</title>
+<link rel="stylesheet" href="lab5_styles/style.css">
+</head>
+<body>
+
+<h2>Форма перевірки даних</h2>
+<form id="myForm">
+    <label>ПІБ: <input type="text" id="fullName" placeholder="ТТТТТТ Т.Т."></label><br><br>
+    <label>Телефон: <input type="text" id="phone" placeholder="(ЧЧЧ)-ЧЧЧ-ЧЧ-ЧЧ"></label><br><br>
+    <label>ID-картка: <input type="text" id="idCard" placeholder="ТТ №ЧЧЧЧЧЧ"></label><br><br>
+    <label>Факультет: <input type="text" id="faculty" placeholder="ТТТТ"></label><br><br>
+    <label>Дата народження: <input type="text" id="birthDate" placeholder="ЧЧ.ЧЧ.ЧЧЧЧ"></label><br><br>
+    <button type="button" onclick="validateForm()">Перевірити</button>
+</form>
+
+<h2>Інтерактивна таблиця</h2>
+<table id="myTable"></table>
+<br>
+<label>Оберіть колір: <input type="color" id="colorPicker"></label>
+
+<script src="lab5_styles/script.js"></script>
+</body>
+</html>
